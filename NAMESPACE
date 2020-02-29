@@ -1,0 +1,14 @@
+useDynLib("tsnetwork", .registration = TRUE)
+
+export("tsnetwork", "gen.sim")
+export("plotG")
+
+import("QUIC", "igraph", "longitudinal", "parallel")
+
+importFrom("graphics", "plot")
+importFrom("stats", "cov2cor", "dnorm", "pnorm", "qnorm", "rbinom",
+             "rnorm", "runif", "cor")		
+			 
+
+
+		 
